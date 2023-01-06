@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, and, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+	background:transparent;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height:1;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+/*blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:none;
+}*/
+del {
+	text-decoration:line-through;
+}
+hr {
+	background:transparent;
+	border:0;
+	clear:both;
+	color:transparent;
+	height:1px;
+	margin:0;
+	padding:0;
+}
+mark {
+	background-color:#ffffb3;
+	font-style:italic
+}
+input, select {
+	vertical-align:middle;
+}
+ins {
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+ol, ul {
+	list-style:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+
+/* Começa aqui */
+body {
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #F3F5FC;
+}
+.img {
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 5%;
+    
+}
+.textarea {
+    display: inline-block;
+    position: fixed;
+}
+.text {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    outline: none;
+    overflow: hidden;
+    resize: none;
+    color: #0A3871;
+    overflow-inline: hidden;
+}
+.text::placeholder {
+    color: #0A3871;
+}
+.Botao {
+    position: absolute;
+    left: 200px;
+    top: 608px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 15px;
+    padding-right: 0px;
+    border-radius: 15px;
+    color: #ffffff;
+    background: #0A3871;
+}
+        
+.Botao:hover {
+    background-color: var(--cinza-medio);
+    color: var(--azul-escuro);
+}
+.Botao2 {
+    position: absolute;
+    border-radius: 15px;
+    width: 180px;
+    height: 38px;
+    left: 580px;
+    top: 608px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 15px;
+    padding-right: 0px;
+    border-radius: 15px;
+    color: #ffffff;
+    background: #0A3871;
+}
+.Botao2:hover {
+    background-color: var(--cinza-medio);
+    color: var(--azul-escuro);
+}
+.imagem {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 950px;
+    top: 50px;
+
+}
+.saida {
+    position: absolute;
+    left: 1080px;
+    top: 450px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+.saida::placeholder {
+    width: 350px;
+    height: 50px;
+    left: 1080px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.sem-mensagem {
+    position: absolute;
+    width: 336px;
+    height: 284px;
+    left: 1092px;
+    top: 90px;
+}
+.copiar {
+    position: absolute;
+    left: 1171px;
+    top: 574px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 15px;
+    padding-right: 0px;
+    border-radius: 15px;
+    color: #ffffff;
+    background: #0A3871;
+}
+        
+.copiar:hover {
+    background-color: #010d1f;
+    transition: 0.3s;
+}
+.l {
+    position: absolute;
+    background-color: #010d1f;
+    top: 690px;
+    width: 100%;
+    height: 55px;
+}
+.desc {
+    position: absolute;
+    color: aliceblue;
+    left: 640px;
+}
+.git {
+    position: absolute;
+    color: aliceblue;
+    left: 540px;
+    bottom: 15px;
+}
+.linkedin  {
+    position: absolute;
+    color: aliceblue;
+    left: 835px;
+    bottom: 15px;
+}
+.linke-a {
+    position: absolute;
+    color: aliceblue;
+    left: 922px;
+    bottom: 15px; 
+}
+.git-a {
+    position: absolute;
+    color: aliceblue;
+    left: 610px;
+    bottom: 15px;
+}
